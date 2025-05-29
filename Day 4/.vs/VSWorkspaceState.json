@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Books.DataAccess",
+    "\\Books.DataAccess\\Migrations",
+    "\\Books.DataAccess\\Models",
+    "\\Books.DataAccess\\Repositories",
+    "\\Books.Services",
+    "\\Books.Services\\Services",
+    "\\Book_Management"
+  ],
+  "SelectedNode": "\\Books.DataAccess\\Migrations\\BooksDbContextModelSnapshot.cs",
+  "PreviewInSolutionExplorer": false
+}
