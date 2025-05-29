@@ -1,0 +1,69 @@
+<!-- Enhanced Form Version 1 -->
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+  <meta charset="utf-8">
+  <title>AngularJS Enhanced Form 1</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+  <style>
+    .error { color: red; }
+    .success { color: green; }
+  </style>
+</head>
+<body ng-controller="FormController">
+
+  <h2>Enhanced Form 1</h2>
+
+  <form name="userForm" ng-submit="submitForm()" novalidate>
+    <label>Name:</label>
+    <input type="text" name="name" ng-model="user.name" required>
+    <span class="error" ng-show="userForm.name.$touched && userForm.name.$invalid">Name is required.</span>
+    <br><br>
+
+    <label>Email ID:</label>
+    <input type="email" name="email" ng-model="user.email" required>
+    <span class="error" ng-show="userForm.email.$touched && userForm.email.$invalid">Valid email required.</span>
+    <br><br>
+
+    <label>Phone:</label>
+    <input type="tel" name="phone" ng-model="user.phone" ng-pattern="/^\d{10}$/" required>
+    <span class="error" ng-show="userForm.phone.$touched && userForm.phone.$invalid">10-digit phone required.</span>
+    <br><br>
+
+    <button type="submit" ng-disabled="userForm.$invalid">Submit</button>
+    <button type="button" ng-click="resetForm()">Reset</button>
+  </form>
+
+  <div class="success" ng-if="submitted">
+    <p>Form submitted successfully!</p>
+    <p><strong>Name:</strong> {{user.name}}</p>
+    <p><strong>Email:</strong> {{user.email}}</p>
+    <p><strong>Phone:</strong> {{user.phone}}</p>
+  </div>
+
+  <script>
+    var app = angular.module('myApp', []);
+    app.controller('FormController', function($scope) {
+      $scope.user = { name: '', email: '', phone: '' };
+      $scope.submitted = false;
+
+      $scope.submitForm = function() {
+        if ($scope.userForm.$valid) {
+          $scope.submitted = true;
+          console.log("Name:", $scope.user.name);
+          console.log("Email ID:", $scope.user.email);
+          console.log("Phone:", $scope.user.phone);
+        }
+      };
+
+      $scope.resetForm = function() {
+        $scope.user = { name: '', email: '', phone: '' };
+        $scope.userForm.$setPristine();
+        $scope.userForm.$setUntouched();
+        $scope.submitted = false;
+      };
+    });
+  </script>
+
+</body>
+</html>
