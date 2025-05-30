@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "aE4T60MYEUQ=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rajes\\Downloads\\BooksApi\\BooksApi.Data\\BooksApi.Data.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rajes\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.11\\microsoft.netcore.app.ref.8.0.11.nupkg.sha512",
+    "C:\\Users\\rajes\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.11\\microsoft.windowsdesktop.app.ref.8.0.11.nupkg.sha512",
+    "C:\\Users\\rajes\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.11\\microsoft.aspnetcore.app.ref.8.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}
