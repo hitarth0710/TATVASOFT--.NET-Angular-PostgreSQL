@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EXwQSxEI40c=",
+  "dgSpecHash": "e+xyAvoemeM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\rajes\\Downloads\\BooksApi\\BooksApi.Entities\\BooksApi.Entities.csproj",
+  "projectFilePath": "C:\\Repository\\TATVASOFT--.NET-Angular-PostgreSQL\\Day 5\\BooksApi.Entities\\BooksApi.Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rajes\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\rajes\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

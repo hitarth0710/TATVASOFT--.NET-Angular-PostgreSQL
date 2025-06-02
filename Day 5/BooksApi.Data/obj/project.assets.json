@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rajes\\Downloads\\BooksApi\\BooksApi.Data\\BooksApi.Data.csproj",
+      "projectUniqueName": "C:\\Repository\\TATVASOFT--.NET-Angular-PostgreSQL\\Day 5\\BooksApi.Data\\BooksApi.Data.csproj",
       "projectName": "BooksApi.Data",
-      "projectPath": "C:\\Users\\rajes\\Downloads\\BooksApi\\BooksApi.Data\\BooksApi.Data.csproj",
+      "projectPath": "C:\\Repository\\TATVASOFT--.NET-Angular-PostgreSQL\\Day 5\\BooksApi.Data\\BooksApi.Data.csproj",
       "packagesPath": "C:\\Users\\rajes\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rajes\\Downloads\\BooksApi\\BooksApi.Data\\obj\\",
+      "outputPath": "C:\\Repository\\TATVASOFT--.NET-Angular-PostgreSQL\\Day 5\\BooksApi.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
