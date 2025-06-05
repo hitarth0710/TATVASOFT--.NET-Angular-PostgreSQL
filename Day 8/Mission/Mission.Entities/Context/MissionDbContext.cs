@@ -14,12 +14,12 @@ namespace Mission.Entities.Context
             builder.Entity<User>().HasData(new User()
             {
                 Id = 1,
-                FirstName = "Tatva",
-                LastName = "Admin",
-                EmailAddress = "admin@tatvasoft.com",
+                FirstName = "Hitarth",
+                LastName = "Soni",
+                EmailAddress = "hitarthsoni947@gmail.com",
                 UserType = "admin",
-                Password = "Tatva@123",
-                PhoneNumber = "9876543210",
+                Password = "root",
+                PhoneNumber = "9016531077",
                 CreatedDate = new DateTime(2019, 1, 1, 0, 0, 0, DateTimeKind.Utc)
             });
 
